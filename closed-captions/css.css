@@ -21,7 +21,7 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-style: italic;
 	text-align: center;
-	font-size: 5em;
+	font-size: 2em;
 }
 .voice2 {
 	font-weight: bold;
@@ -160,8 +160,8 @@ overflow: hidden;
 .sound3::before {
 	content: "";
 	
-width: 100%;
-height: 100%;
+width: 200%;
+height: 200%;
 }
 .sound3::after {
 	content: "";
@@ -172,7 +172,7 @@ bottom: 0;
 left: 0;
 	background-color: black;
 	transition: scale(1.6);
-	border-radius: 30%;
+	border-radius: 45%;
 	animation: animate 15s ease-in-out 1;
 	opacity: 0;
 }
