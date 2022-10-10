@@ -10,6 +10,7 @@ Feel free to adjust the defaults to your needs.
 	transition: .05s;
 	position: absolute;
 }
+
 #closed-captions .on {
 	opacity: 1;
 }
@@ -19,6 +20,8 @@ Feel free to adjust the defaults to your needs.
 }
 .voice1 {
 	font-style: italic;
+	text-align: center;
+	font-size: 5em;
 }
 .voice2 {
 	font-weight: bold;
@@ -113,7 +116,6 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
