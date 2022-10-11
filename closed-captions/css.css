@@ -32,6 +32,12 @@ Feel free to adjust the defaults to your needs.
 	font-weight: bold;
 }
 
+.voice3 {
+	font-family: "Brenner Mono";
+	
+}
+
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -45,8 +51,9 @@ You probably want to change the styling.
 position: absolute;
 z-index: 2;
 top: 6em; 
-right: 10em;
+right: 2em;
 color: azure;
+text-align: left;
 
 }
 
@@ -104,19 +111,23 @@ color: azure;
 
  
 .p0.on span:nth-of-type(9) {
+	display: block;
 	opacity: 1;
 	transition: 0s 3s;
-	font-weight: 800;;
+	font-weight: 800;
 }
 .p0.on span:nth-of-type(10) {
+	display: block;
 	opacity: 1;
 	transition: 0s 3.2s;
 font-weight: 800;;
 }
 .p0.on span:nth-of-type(11) {
+	display:block;
 	opacity: 1;
 	transition: 0s 3.7s;
 	font-weight: 800;
+	font-size: 2em;
 }
 
 /* Yes sir */
@@ -144,6 +155,40 @@ font-weight: 800;;
 	color: azure;
 }
 
+/* Fuck off Skin Job */
+.p6.on {
+	font-weight: 800;
+	font-size: 3em;
+	position: absolute;
+	top: 2em;
+	color: azure;
+	
+
+}
+
+
+.p6.on span:first-of-type {
+	display: block;
+	animation: text-shaking 0.05s  infinite;
+}
+
+.p6.on span:nth-of-type(2) {
+	display: block;
+	animation: text-shaking 0.05s  infinite;
+}
+
+.p6.on span:nth-of-type(3) {
+	display: block;
+	animation: text-shaking 0.05s  infinite;
+}
+/* https://unused-css.com/blog/css-shake-animation/ */
+@keyframes text-shaking {
+	 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
+}
 
 /* **********************************************
 Sounds.
@@ -160,6 +205,7 @@ Sounds.
 	animation-duration: 4s;
 	animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
+background-color:#254441;
 
 }
 
@@ -185,37 +231,45 @@ animation-iteration-count: 1;
 
 	
 }
+.sound5 {
+	animation:  beep-sound 5s 
+}
 @keyframes beep-sound {
 	0% {
 		
 		background-color: rgba(255, 0, 0, 0.795);
 	}
 }
+
+
+
 .sound3   {
 
 		background-color: white;
 
 position: relative;
-overflow: hidden;
+
 }
 .sound3::before {
 	content: "";
+
 	
-width: 100%;
-height: 100%;
+
 }
 .sound3::after {
 	content: "";
-	width:100%;
-height: 100%;
+	width:200%;
+height: 200%;
 position: absolute;
+z-index: -1;
 bottom: 0;
 left: 0;
-	background-color: black;
+	background-color:  #254441;
 	transition: scale(1.6);
 	border-radius: 30%;
-	animation: animate 15s ease-in-out 1;
+	animation: animate 9s ease-in-out 1;
 	opacity: 0;
+	
 }
 @keyframes animate {
 	0%{
@@ -223,13 +277,17 @@ left: 0;
 		transform: translateY(0) rotate(0deg) scale(1.6);
 opacity: 0;
 	}
-	50%{
-		transform: translateY(-150%) rotate(300deg) scale(1.6);
-opacity: 1;
+
+
+	50% {
+		transform: translateY(-150%) rotate(360deg) scale(1.6);
+	opacity: 1;
 	}
+
 	100% {
 		transform: translateY(0) rotate(0deg) scale(1.6);
-		opacity: 0;
+		opacity: 0; 
+	
 	}
 }
 
