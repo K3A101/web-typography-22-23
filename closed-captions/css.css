@@ -23,13 +23,27 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
-.voice1 {
-	font-style: italic;
-	text-align: center;
-	font-size: 2em;
+.voice1, 
+.voice2,
+.voice4{
+	position: absolute;
+	bottom: 1em;
+	
+ font-family: "Brenner Mono";
+ text-align: center;
+ margin: .5em;
+ 
 }
+/* Robotic voice */
+.voice1 {
+	font-size: 2em;
+	font-weight: 800;
+	color: azure;
+}
+/* }Main lead voice */
 .voice2 {
-	font-weight: bold;
+	font-weight: 400;
+	color: azure;
 }
 
 .voice3 {
@@ -47,7 +61,7 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 /* De officer naam moet  boven de video zijn  */
-.p0.on {
+.voice1.p0.on {
 position: absolute;
 z-index: 2;
 top: 6em; 
@@ -132,11 +146,8 @@ font-weight: 800;;
 
 /* Yes sir */
 .p1  span{
-	font-family: "Brenner Sans";
+	
     margin: 0  .125em;
-	
-	
-
 }
 .p1.on {
 	display: flex;
@@ -156,39 +167,52 @@ font-weight: 800;;
 
 /* Fuck off Skin Job */
 .p6.on {
-	font-weight: 800;
-	font-size: 3em;
-	position: absolute;
-	top: 2em;
-	color: azure;
-	
 
+	font-size:1.2em;
+	position: absolute;
+	
+	color: azure;
+	animation: throw-the-words .3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
 }
 
+@keyframes throw-the-words {
+	0%{
+    transform: translateY(0) translateX(0);
+  }
+  50%{
+      transform: translateY(-200px) translateX(400px);
+    animation-timing-function: ease-in;
+  }
+  100%{
+      transform: translateY(-100px) translateX(200px);
+     animation-timing-function: ease-out;
+  }
+}
 
 .p6.on span:first-of-type {
 	display: block;
 	animation: text-shaking 0.5s  infinite;
 }
 
-.p6.on span:nth-of-type(2) {
+/* .p6.on span:nth-of-type(2) {
 	display: block;
 	animation: text-shaking 0.5s  infinite;
 	
-}
+} */
 
-.p6.on span:nth-of-type(3) {
+/* .p6.on span:nth-of-type(3) {
 	display: block;
 	animation: text-shaking 0.5s  infinite;
 	color: rgb(234, 199, 157);
-}
+} */
 /* https://unused-css.com/blog/css-shake-animation/ */
 @keyframes text-shaking {
 	 0% { transform: translateX(0) }
  25% { transform: translateX(5px) }
  50% { transform: translateX(-5px) }
  75% { transform: translateX(5px) }
- 100% { transform: translateX(0) }
+ 100% { transform: translateX(0); 
+	color: orange; }
 }
 
 /* **********************************************
