@@ -6,6 +6,9 @@ Aan mijn de taakt om het filmfragment spannender en somber maken voor de mensen 
 
 
 ## Ideeen
+Voor mijn concept heb ik verschillende ideeen geschets die ik op de website wil gaan toevoegen. Om mezelf te inspireren heb ik de film Blade runner gekeken. Hiermee begreep ik waarover de film gaat en de sfeer. Terwijl ik de film kijk, schreef  ik alle ideeen op.
+
+Hier zijn de eerste brainstorming:
 
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
