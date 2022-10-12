@@ -200,7 +200,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 /* De video container draait 15 graden */
-.sound0 {
+.sound0 #video-mask {
 	/* transform: rotate(15deg); */
 	animation-name: video-rotate;
 	animation-duration: 4s;
