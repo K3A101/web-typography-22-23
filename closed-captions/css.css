@@ -168,17 +168,19 @@ font-weight: 800;;
 
 .p6.on span:first-of-type {
 	display: block;
-	animation: text-shaking 0.05s  infinite;
+	animation: text-shaking 0.5s  infinite;
 }
 
 .p6.on span:nth-of-type(2) {
 	display: block;
-	animation: text-shaking 0.05s  infinite;
+	animation: text-shaking 0.5s  infinite;
+	
 }
 
 .p6.on span:nth-of-type(3) {
 	display: block;
-	animation: text-shaking 0.05s  infinite;
+	animation: text-shaking 0.5s  infinite;
+	color: rgb(234, 199, 157);
 }
 /* https://unused-css.com/blog/css-shake-animation/ */
 @keyframes text-shaking {
@@ -224,10 +226,20 @@ animation-iteration-count: 1;
 	
 } */
 /* Beep alarm */
-.sound2,  .sound5 {
+.sound2 {
 	animation:  beep-sound 5s ;
+}
 
-	
+.sound5 {
+	animation:  beep-sound1 5s  ;
+}
+
+.sound7 {
+	animation:  beep-sound2 5s  ;
+}
+
+.sound9 {
+	animation:  beep-sound3 5s  ;
 }
 
 @keyframes beep-sound {
@@ -235,23 +247,89 @@ animation-iteration-count: 1;
 		
 		background-color: rgba(255, 0, 0, 0.795);
 	}
+
+	100% {
+		background-color:white;
+	}
+}
+
+@keyframes beep-sound1 {
+	0% {
+		
+		background-color: rgba(255, 0, 0, 0.795);
+	}
+
+	100% {
+		background-color:white;
+	}
+}
+
+@keyframes beep-sound2 {
+	0% {
+		
+		background-color: rgba(255, 0, 0, 0.795);
+	}
+
+	100% {
+		background-color:white;
+	}
+}
+
+@keyframes beep-sound3 {
+	0% {
+		
+		background-color: rgba(255, 0, 0, 0.795);
+	}
+
+	100% {
+		background-color:white;
+
+	}
 }
 
 
+.sound10 {
+	animation: annoying-sound .5s ease-in-out 81;
 
+}
+
+@keyframes annoying-sound {
+  0% {
+    background-color: red;
+    background-position: 0% 50%;
+  }
+  25% {
+    background-color: white;
+  }
+  
+  50% { 
+    background-color: #8e1800;
+    background-position: 100% 50%;
+  }
+  75% {
+    background-color: white;
+  }
+  
+  100% {
+    background-color: red;
+    background-position: 0% 50%;
+  }
+}
+
+.sound11 {
+	background-color: white;
+}
+
+/* 
 .sound3   {
-
-		background-color: white;
-
+background-color: white;
 position: relative;
 
 }
 .sound3::before {
 	content: "";
-
-	
-
 }
+
 .sound3::after {
 	content: "";
 	width:100vmin;
@@ -287,7 +365,7 @@ opacity: 0;
 		opacity: 0; 
 	
 	}
-} 
+}  */
 
 
 /* **********************************************
@@ -339,7 +417,7 @@ filter: url(#goo);
 	position: absolute;
 	
 	border-radius: 50%;
-	animation: fall 15s infinite;
+	animation: fall 15s  5;
 }
 
 @keyframes fall {
