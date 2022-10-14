@@ -162,9 +162,9 @@ font-weight: 800;;
 	color: azure;
 }
 
-.p3.on {
+/* .p3.on {
 	
-}
+} */
 /* Het woord spin draait */
 .p3.on span:nth-of-type(6) {
 	position: absolute;
@@ -390,12 +390,23 @@ background-color: #7AF0A1;
 
 
 
-.sound11 {
+.sound11 section {
 	position: absolute;
-	z-index: 0;
-	background-color: white;
+	z-index: -1;
+	/* background-color: white; */
+	 top: -50px;
+  left: -50px;
+  width: calc(100% + 50px);
+  height: calc(100% + 50px);
+  background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
+  background-size: 5px 5px;
+  filter: url(#noise);
 }
 
+svg:last-of-type {
+  width: 0;
+  height: 0;
+}
 /* 
 .sound3   {
 background-color: white;
