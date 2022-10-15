@@ -170,7 +170,7 @@ font-weight: 800;;
 	position: absolute;
 	transform: translateX(.2em);
 color: red;
-  animation: rotation .5s ease-in-out 1;
+  animation: rotation .5s linear 1;
   animation-delay: 1.5s;
 }
 
@@ -207,17 +207,17 @@ color: red;
     animation-timing-function: ease-in;
   }
   100%{
-      transform: translateY(-100px) translateX(200px);
+      transform: translateY(-43px) translateX(10px);
      animation-timing-function: ease-out;
   }
 }
 
 .p6.on span:first-of-type {
-	animation: text-shaking 0.5s  infinite;
+	animation: text-shaking 0.3s  infinite;
 }
 
 .p6.on span:nth-of-type(2) {
-	animation: text-shaking 0.5s  infinite;
+	animation: text-shaking 0.3s  infinite;
 	
 }
 
@@ -235,6 +235,27 @@ color: red;
  100% { transform: translateX(0); 
 	color: orange; }
 }
+
+.voice2.p12.on,
+.voice2.p15.on,
+.voice2.p18.on,
+.voice2.p20.on,
+.voice2.p23.on,
+.voice2.p26.on,
+.voice2.p29.on,
+.voice2.p31.on,
+.voice2.p34.on,
+.voice2.p37.on,
+.voice2.p39.on,
+.voice2.p41.on,
+.voice2.p42.on,
+.voice2.p43.on{
+	position: absolute;
+	top: 2em;
+	right: 2em;
+}
+
+
 
 /* **********************************************
 Sounds.
@@ -272,64 +293,39 @@ animation-iteration-count: 1;
 } */
 /* Beep alarm */
 .sound2 {
-	animation:  beep-sound 5s ;
+	animation:  beep-sound ease-in-out  5s ;
 }
 
 .sound5 {
-	animation:  beep-sound1 5s  ;
+	animation:  beep-sound1 ease-in-out 5s  ;
 }
 
 .sound7 {
-	animation:  beep-sound2 5s  ;
+	animation:  beep-sound2 ease-in-out 5s  ;
 }
 
 .sound9 {
-	animation:  beep-sound3 5s  ;
+	animation:  beep-sound3 ease-in-out 5s  ;
 }
 
 @keyframes beep-sound {
-	0% {
-		
-		background-color: rgba(255, 0, 0, 0.795);
-	}
-
-	100% {
-		background-color:white;
-	}
+	0% {background: linear-gradient(143deg, rgba(255,185,80, 0.79) 9%, rgba(255,127,80,1) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	100% {background-color:white;}
 }
 
 @keyframes beep-sound1 {
-	0% {
-		
-		background-color: rgba(255, 0, 51, 0.795);
-	}
-
-	100% {
-		background-color:white;
-	}
+	0% {background:  linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,0.79) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	100% {background-color:white;}
 }
 
 @keyframes beep-sound2 {
-	0% {
-		
-		background-color: rgba(255, 0, 51, 0.795);
-	}
-
-	100% {
-		background-color:white;
-	}
+	0% {background: linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,0.79) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	100% {background-color:white;}
 }
 
 @keyframes beep-sound3 {
-	0% {
-		
-		background-color: rgba(255, 0, 51, 0.795);
-	}
-
-	100% {
-		background-color:white;
-
-	}
+	0% {background: linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,1) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+100% {background-color:white;}
 }
 
 
@@ -355,15 +351,11 @@ background-color: #7AF0A1;
   }
   75%{
      transform :translate(-10px, 10px);
-   
   }
   100% {
       transform:translate(-5px,10px);
   }
 }
-
-
-
 
 @keyframes annoying-sound {
   0% {
@@ -389,7 +381,7 @@ background-color: #7AF0A1;
 }
 
 
-
+/* Tv Static noise  */
 .sound11 section {
 	position: absolute;
 	z-index: -1;
@@ -407,6 +399,10 @@ svg:last-of-type {
   width: 0;
   height: 0;
 }
+
+
+
+
 /* 
 .sound3   {
 background-color: white;
@@ -500,7 +496,7 @@ filter: url(#goo);
 	width: 100px;
 	height: 100px;
 	top: -20%;
-	background-color: black;
+	background-color: #0A2E26;
 	position: absolute;
 	
 	border-radius: 50%;
@@ -522,6 +518,7 @@ filter: url(#goo);
 .particle:nth-of-type(3n) {
 	width: 120px;
 	height:120px;
+	background-color: #1e463c;
 }
 
 .particle:nth-of-type(1){
@@ -542,6 +539,7 @@ filter: url(#goo);
 .particle:nth-of-type(4){
 	left: 75%;
 	animation-delay: 4s;
+	background-color: #0B2631;
 }
 
 .particle:nth-of-type(5){
@@ -567,6 +565,7 @@ filter: url(#goo);
 .particle:nth-of-type(9){
 	left: 55%;
 	animation-delay: 9s;
+	background-color: #26623d;
 }
 
 .particle:nth-of-type(10){
@@ -601,11 +600,9 @@ filter: url(#goo);
 
 .border {
 position: absolute;
-background-color: black;	
+background-color: #0A2E26;	
 width: 100%;
 height: 3%;
-
-
 }
 
 .sound10 .container {
