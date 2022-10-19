@@ -235,7 +235,11 @@ color: red;
  100% { transform: translateX(0); 
 	color: orange; }
 }
-
+.voice2.p3.on,
+.voice2.p4.on,
+.voice2.p5.on,
+.voice2.p7.on,
+.voice2.p9.on,
 .voice2.p12.on,
 .voice2.p15.on,
 .voice2.p18.on,
@@ -309,22 +313,22 @@ animation-iteration-count: 1;
 }
 
 @keyframes beep-sound {
-	0% {background: linear-gradient(143deg, rgba(255,185,80, 0.79) 9%, rgba(255,127,80,1) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	0% {background: linear-gradient(143deg, rgba(255,185,80, 0.79) 9%, rgba(255,127,80,0.79) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
 	100% {background-color:white;}
 }
 
 @keyframes beep-sound1 {
-	0% {background:  linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,0.79) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	0% {background-color:   rgba(255,185,80, 0.79);}
 	100% {background-color:white;}
 }
 
 @keyframes beep-sound2 {
-	0% {background: linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,0.79) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	0% {background-color:   rgba(255,127,80,0.79);}
 	100% {background-color:white;}
 }
 
 @keyframes beep-sound3 {
-	0% {background: linear-gradient(143deg, rgba(255,185,80,0.79) 9%, rgba(255,127,80,1) 29%, rgba(255,69,0,0.79) 66%, rgba(128,26,47,0.79) 99%);}
+	0% {background-color:   rgba(255,69,0,0.79);}
 100% {background-color:white;}
 }
 
@@ -400,6 +404,21 @@ svg:last-of-type {
   height: 0;
 }
 
+/* video zooming slowly */
+.sound11 #video-mask {
+	 animation: zooming-slowly 50s ease-in-out 1; 
+  transform: scale(4);
+}
+
+@keyframes zooming-slowly {
+    0%{
+     transform: scale(1)
+    }
+    
+    100%{
+      transform: scale(4);
+    }
+  }
 
 
 
