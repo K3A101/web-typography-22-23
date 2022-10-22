@@ -31,8 +31,7 @@ Wat ik eerst heb gedaan om het filmfragment beter te begrijpen, was de hele film
 In mijn concept wilde ik gaan proberen om een combinatie van deze woorden toe te passen.
 
 ## Ideeen
-Het volgende stap was ideen bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. Om mezelf te inspireren heb ik de film Blade runner gekeken. Hiermee begreep ik waarover de film gaat en de sfeer. Terwijl ik de film kijk, schreef  ik alle ideeen op.
-
+Het volgende stap was ideen bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. 
 
 ### Hier zijn de eerste brainstorming:
 In mijn brainstorming heb ik verschillende ideeën geschetst. De ideeën hebben te maken met kleur, beweging en  illustraties. Om dat te bereiken ga ik animeren met css. Ik wil gaan spelen met animaties om mijn vaardigheden te verbeteren
@@ -45,6 +44,32 @@ Wat ik in mijn project wil terug zien zijn:
 - Illustratie aan het einde van Fragment 1 
 - Grote woorden op een random plek van de webpagina
 
+> Deze ideeen zijn gemaakt op basis van het geluid die ik moet vormgeven, de sfeer van de film en de betekenis van de tekst. 
+
+Verder ging ik zoeken naar verschillende manieren hoe ik de effecten en animatie kan toepassen met css. 
+Een paar kon ik zelf doen en die test ik op codepen. Andere heb ik gevonden op andere bronnen en youtube.  Alle bronnen staan helemaal onderaan. 
+
+## Typografie
+Een onderdeel van dit opdracht is ook de juiste lettertype kiezen om de geluiden en stemmen goed  te vormgeven. Ik heb gekozen voor de lettertype brenner omdat die verschillende soorten stijlen heeft.. In mijn video heb ik Brenner monospaced font-family gebruikt. Bijna alle karakters praten heel erg monotoon. Er zijn verschillende karakters in de fragment. 
+
+1. Het persoon achter de radio
+2. De hoofdpersonage 
+3. Persoon die vloekte
+4. Persoon die zegt " You can pick up your bonus".
+
+### Het persoon achter de radio/microfoon
+Het persoon achter de microfoon spraak bijna de hele filmfragment. Zijn doel was vragen stellen om de hoofdpersonage te testen.  Door de radio klinkt hij robotisch. Hij spreek luid en duidelijk. De beste lettertype voor dit stem was Brenner Monospaced bold. Want het geef aan dat de spreker een robotische stem heeft en is in controle van de situatie. Soort van ik ben degene die vragen stelt en jij (de hoofdpersonage) beantwoord. 
+
+### De hoofdpersonage 
+De hoofdpersonage is een biotechnologisch android die zorg ervoor dat de oude versie androids verdwijnen. Gedurende de film dacht hij dat hij gekozen was om een revolutie te zorgen tussen mensen en androids. 
+
+Tijdens de film zag ik dat hij geen oogcontact houdt met de lapd officiers. Hij is onderukt en gediscrimeerd door de mensen rondom hem. Dus stem geeft een gevoel van onderdanigheid en passiviteit. Hij is een "robotische" mens die monotoon en rustig praat. Hij moet tijdens zijn test antwoord geven.  In de eerste fragment   bentwoorde  hij op een saaie manier omdat hij heeft de test zoveel keren gedan dus hij weet wat hij moet zeggen en heeft de test behaald. Daarom heb ik de lettertype Brenner monospaced regular.
+
+
+### Persoon die vloekte
+Deze scene vindt plaats in de eerste fragment. Hij is een de lapd officier die tegen de hoofdpersonage vloekt. De manier hoe hij dit zegt is agresief en subtiel. Het geef aan de haat tegen de androids.
+
+## Filmfragment 1
 Het film begint met de  personage in zijn voertuig te draaien. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. De tekst wil ik gaan vormgeven op Basis van emoties. 
 Commanderend voice krijgt een monospaced font
 Hoofdpersoon stem krijgt monospaced font maar klein
