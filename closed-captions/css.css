@@ -51,6 +51,35 @@ Feel free to adjust the defaults to your needs.
 	
 }
 
+.voice4 {
+  color: rgb(55, 158, 86);
+  font-size: 1.9em;
+  	font-weight: 800;
+}
+
+/* Stemmen voor fragment 2 */
+.voice5,
+.voice6{
+	position: absolute;
+ font-family: "Brenner Mono";
+ margin: .5em;
+ 
+}
+
+/* Robotic voice */
+.voice5 {
+  bottom: 0;
+	font-size: 3em;
+	font-weight: 800;
+	color: azure;
+}
+/* }Main lead voice */
+.voice6 {
+	font-weight: 400;
+	color: azure;
+  	top: 2em;
+	right: 2em;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -163,9 +192,7 @@ font-weight: 800;;
 	color: azure;
 }
 
-/* .p3.on {
-	
-} */
+
 /* Het woord spin draait */
 .p3.on span:nth-of-type(6) {
 	position: absolute;
@@ -193,7 +220,7 @@ animation-iteration-count: 1;
 
 /* Fuck off Skin Job met throw animatie*/
 .p6.on {
-
+font-family: "Brenner Mono Light";
 	font-size:1.2em;
 	position: absolute;
 	
@@ -262,20 +289,35 @@ animation-iteration-count: 1;
 	right: 2em;
 }
 
+.voice2.p3.on {
+right: 3em;
+}
 /* Within cells interlinked 3X */
 /* .voice2.p41.on{
 
 } */
 
 .voice2.p42.on{
-color: #989898;
+color: #d1680d;
 font-size: 1.3em;
 }
 .voice2.p43.on{
-	color: #565656;
+	color: #c30000;
 	font-size: 1.5em;
 }
 
+
+.voice4.p46 {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #4ee667,
+    0 0 82px #4ee667,
+    0 0 92px #4ee667,
+    0 0 102px #4ee667,
+    0 0 151px #4ee667;
+}
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -338,7 +380,7 @@ animation-iteration-count: 1;
 }
 
 @keyframes beep-sound2 {
-	0% {background-color:   rgba(255,127,80,0.79);}
+	0% {background-color:   rgba(255, 113, 61, 0.79);}
 	100% {background-color:white;}
 }
 
@@ -351,8 +393,8 @@ animation-iteration-count: 1;
 .sound10 {
 	animation: annoying-sound .5s ease-in-out 82;
 background-color: #7AF0A1;
-
 }
+
 
 .sound10 #video-mask {
 	animation: rotation .5s linear 82;
@@ -397,6 +439,48 @@ background-color: #7AF0A1;
     background-position: 0% 50%;
   }
 }
+
+/* You can pick up your bonus */
+/* .coins {
+  position: absolute;
+  top: -30em;
+  z-index: -1;
+bottom: 0;
+margin: auto;
+left: 0;
+right: 0;
+ width: 300px;
+ height: 300px;
+ animation-name: coins-appears;
+animation-timing-function: ease-in-out;
+ animation-iteration-count: infinite;
+animation-delay: 3s;
+}
+
+.coins.bottom {
+  bottom: -60em;
+}
+
+@keyframes coins-appears {
+  0%{
+    opacity: 0;
+  }
+  50% {
+opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+
+/* .voice4.p46 {
+  	display: flex;
+	position: absolute;
+	 top: 50%; 
+	 right: 50%;
+  transform: translate(50%,-50%);
+} */
 
 /* Glitch effect op de video mask */
 .sound12 #video-mask{

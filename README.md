@@ -4,91 +4,61 @@ Voor web typografie moeten we een filmfragment vormgeven voor mensen die doof zi
 
 Aan mijn de taakt om het filmfragment spannender en somber maken voor de mensen die doof zijn met behulp van CSS. 
 
+### Taak
+>Filmfragmenten vormgeven voor  mensen die doof zijn geboren.
+Ik moet gaan vormgeven op basis van deze vier principes  van Exclusive design namelijk:
+
+-  Study situation 
+- Ignore Conventions
+- Prioritise Identity
+- Add Nonsense 
+
+#### Inleveren
+- Werkende versie op Github pages
+- Documentatie op Readme
+- Screen recorder met Audio
+- Zip folder van het werk 
+
+---
+# Het proces
+## Study situation
+Wat ik eerst heb gedaan om het filmfragment beter te begrijpen, was de hele film bekijken. Hiermee heb ik wat ideen opgeschren en geschets die ik kan toevoegen. Bovendien heb ik een beetje nagedacht aan de sfeer die het film navoren brengt en die waren:
+- scifi
+- Onbegrijpbaar
+- raar 
+- saai 
+
+In mijn concept wilde ik gaan proberen om een combinatie van deze woorden toe te passen.
 
 ## Ideeen
-Voor mijn concept heb ik verschillende ideeen geschets die ik op de website wil gaan toevoegen. Om mezelf te inspireren heb ik de film Blade runner gekeken. Hiermee begreep ik waarover de film gaat en de sfeer. Terwijl ik de film kijk, schreef  ik alle ideeen op.
-
-Hier zijn de eerste brainstorming:
+Het volgende stap was ideen bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. Om mezelf te inspireren heb ik de film Blade runner gekeken. Hiermee begreep ik waarover de film gaat en de sfeer. Terwijl ik de film kijk, schreef  ik alle ideeen op.
 
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+### Hier zijn de eerste brainstorming:
+In mijn brainstorming heb ik verschillende ideeën geschetst. De ideeën hebben te maken met kleur, beweging en  illustraties. Om dat te bereiken ga ik animeren met css. Ik wil gaan spelen met animaties om mijn vaardigheden te verbeteren
+Wat ik in mijn project wil terug zien zijn:
+- Bewegende video container
+- Liquid effect achtergrond
+- Descending video container
+- Glitching text/ achtergrond effect
+- Optical illusion achtergrond
+- Illustratie aan het einde van Fragment 1 
+- Grote woorden op een random plek van de webpagina
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Het film begint met de  personage in zijn voertuig te draaien. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. De tekst wil ik gaan vormgeven op Basis van emoties. 
+Commanderend voice krijgt een monospaced font
+Hoofdpersoon stem krijgt monospaced font maar klein
+Hij is wel bio-engineered als een biologisch mens maar voelt zich meer human. En hij praat niet zo hard.
+De fuck-off skin Job is agressief maar subtiel dus ik denk met animatie die naar de hoofdpersoon gooit.
 
-Dat kan visueel sterker. 
+Verder hebben we de piepende geluid die heel irritant zijn. Hier wil ik de achtergrond vormgeven met flashing effect met rode tinten. De animatie stopt wanneer het geluid stopt. Ik wil ook de video container laten bewegen. Het animatie eindigt met een groene achtergrond.
 
-En dat gaan jullie doen.
 
-## Leerdoelen
+Typografie en onderbouwing:
+Voor de typografie heb ik Brenner Mono gekozen. Ik heb de stemmen verdeeld in twee. De personen achter de microfoon en de hoofdpersoon. 
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+In de fragment 1 de persoon achter de microfoon hebben een robotische stem door de radio, en ik vond dat een monospace font is passend in dit geval. Bovendien heb ik bold gebruikt die ik wil weergeven als autoritair. De bold past ook bij de tweede fragment wanneer de stem meer urgent lijkt. 
 
-## Oplevering
+Aan de andere kant heb ik bij de hoofdkarakter een monospaced brenner regular lettertype gebruikt. Hij is ook monotoon maar minder imponerend dan de andere stem.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
-
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
-
-## Typografische restricties
-
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
