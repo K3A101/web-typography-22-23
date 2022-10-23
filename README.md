@@ -50,7 +50,7 @@ Verder ging ik zoeken naar verschillende manieren hoe ik de effecten en animatie
 Een paar kon ik zelf doen en die test ik op codepen. Andere heb ik gevonden op andere bronnen en youtube.  Alle bronnen staan helemaal onderaan. 
 
 ## Typografie
-Een onderdeel van dit opdracht is ook de juiste lettertype kiezen om de geluiden en stemmen goed  te vormgeven. Ik heb gekozen voor de lettertype brenner omdat die verschillende soorten stijlen heeft.. In mijn video heb ik Brenner monospaced font-family gebruikt. Bijna alle karakters praten heel erg monotoon. Er zijn verschillende karakters in de fragment. 
+Een onderdeel van dit opdracht is ook de juiste lettertype kiezen om de geluiden en stemmen goed  te vormgeven. Ik heb gekozen voor de lettertype brenner omdat die verschillende soorten stijlen heeft.. In mijn video heb ik Brenner monospaced font-family gebruikt. Bijna alle karakters praten heel erg monotoon. Er zijn verschillende karakters in de fragment. Ik ga de tekst vormgeven op basis van emoties.
 
 1. Het persoon achter de radio
 2. De hoofdpersonage 
@@ -74,20 +74,26 @@ Met CSS kon ik het  woord laten bewegen. Het woord wordt gegooid naar de hoofdpe
 ## Filmfragment 1
 <img src="images/liquid-v2.png">
 
-Het film begint met de  personage in zijn voertuig te draaienns. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. De tekst wil ik gaan vormgeven op Basis van emoties. 
-Commanderend voice krijgt een monospaced font
-Hoofdpersoon stem krijgt monospaced font maar klein
-Hij is wel bio-engineered als een biologisch mens maar voelt zich meer human. En hij praat niet zo hard.
-De fuck-off skin Job is agressief maar subtiel dus ik denk met animatie die naar de hoofdpersoon gooit.
+### Liquid effect
+Het filmfragment begint met de  personage in zijn voertuig te draaienns. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. Voor de rest heb ik een reden waarom ik de effect heb geplaatst, maar ik vond het tof genoeg en voltooid aan het principe: add nonsense.
 
-Verder hebben we de piepende geluid die heel irritant zijn. Hier wil ik de achtergrond vormgeven met flashing effect met rode tinten. De animatie stopt wanneer het geluid stopt. Ik wil ook de video container laten bewegen. Het animatie eindigt met een groene achtergrond.
+#### Iteraties van de effect
+<img src="images/schets-liquid.jpg">  
+<img src="images/liquid-effect.png">
 
+De eerste versie van dit animatie was een schets die ik heb gemaakt tijdens mijn ideation fase. Ik had verschillende bronnen gezocht voor een vloeibare druppel achtergrond, maar ik was niet succesvol. Dus uiteindelijk heb ik verschillende manieren geprobeerd en heb uiteindelijk een oplossing gevonden. 
 
-Typografie en onderbouwing:
-Voor de typografie heb ik Brenner Mono gekozen. Ik heb de stemmen verdeeld in twee. De personen achter de microfoon en de hoofdpersoon. 
+Ik heb een instructivideo gevolgd en de animatie helemaal uitgewerkt. De eerste versie was helemaal zwart maar daarna heb ik donkere groene tinten aan de druppels gegeven. Want deze kleuren passen betere in de eerste scene van de video. 
 
-In de fragment 1 de persoon achter de microfoon hebben een robotische stem door de radio, en ik vond dat een monospace font is passend in dit geval. Bovendien heb ik bold gebruikt die ik wil weergeven als autoritair. De bold past ook bij de tweede fragment wanneer de stem meer urgent lijkt. 
+## Baseline test
+De volgende scene gaat over de baseline test, hier gebeurde verschillende dingen die ik kan vormgeven. Bijvoorbeeld de vloek, de irritante piep geluid en de test. 
 
-Aan de andere kant heb ik bij de hoofdkarakter een monospaced brenner regular lettertype gebruikt. Hij is ook monotoon maar minder imponerend dan de andere stem.
+### Achtergrond kleur bij Alarm
+Ik begin eerst met de achtergrond geluid. Terwijl de hoofdpersoon aan het beantwoorden was hoor je een alarm. Er zijn vier alarmgeluiden voordat de piep geluid komt. Wanneer je de alarm hoort verandert de achtergond kleur van wit naar rood (versie 1). Bij de eerste versie verandert elk achtergrond in een felle achtergrond kleur.
 
+In de eerste versie verandert alarm 1:  Linear gradient, Alarm 2: licht Oranje achtergrond  Alarm 3: Oranje, Alarm 4: Roodoranje achtergrond. De bedoeling was  om een intensisteit  niveau weertegeven voor de piepende geluid. Licht oranje wordt gezien als minder intens en rood wordt ge zien als intens en waarschuwing. 
+
+#### Iteraties
+<img src="images/alarm.png">
+Voor mijn eerste versie wilde ik dat de video gaat schudden tijdens de alarm maar uiteindelijk heb ik gekozen om de achtergrond kleur te veranderen. Ten eerste heb ik voor rood gekozen omdat het geef een gevoel van urgentie en ik asosieer het met een alarm bel kleur. 
 
