@@ -220,7 +220,7 @@ animation-iteration-count: 1;
 
 /* Fuck off Skin Job met throw animatie*/
 .p6.on {
-font-family: "Brenner Mono Light";
+font-family: "Brenner Sans Light";
 	font-size:1.2em;
 	position: absolute;
 	
@@ -317,6 +317,30 @@ font-size: 1.3em;
     0 0 92px #4ee667,
     0 0 102px #4ee667,
     0 0 151px #4ee667;
+}
+.voice6 {
+animation: text-shaking-dread  .5s ease-in-out infinite;
+}
+
+@keyframes text-shaking-dread {
+	 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0);  }
+}
+
+.voice5.p79 {
+  color:#8e1800;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #ff5555,
+    0 0 42px #ff5555,
+    0 0 82px #ff5555,
+    0 0 92px #ff5555,
+    0 0 102px #ff5555,
+    0 0 151px #ff5555;
 }
 /* **********************************************
 Sounds.

@@ -1,4 +1,4 @@
-# Web Typography, 2020/2021
+# Web Typografie
 ## Inleiding
 Voor web typografie moeten we een filmfragment vormgeven voor mensen die doof zijn geboren. De filmfragment gaat over de film blade runner. Blade runner is een science fiction fllm. Zonder geluid kun je aangegeven dat het gaat over een science fiction film door het  sombere sfeer, maar het is saai en je kan niks begrijpen.  Met geluid kun je  hoor je een verschillende geluiden die het fragment spannender maakt. 
 
@@ -67,10 +67,14 @@ Tijdens de film zag ik dat hij geen oogcontact houdt met de lapd officiers. Hij 
 
 
 ### Persoon die vloekte
-Deze scene vindt plaats in de eerste fragment. Hij is een de lapd officier die tegen de hoofdpersonage vloekt. De manier hoe hij dit zegt is agresief en subtiel. Het geef aan de haat tegen de androids.
+Deze scene vindt plaats in de eerste fragment. Hij is een de lapd officier die tegen de hoofdpersonage vloekt. De manier hoe hij dit zegt is agresief en subtiel. Het geef aan de haat tegen de androids. Voor hem heb ik de font Brenner sans light gebruikt. Met dit lettertype kan ik aangeven dat dit karakter een "echte" mens is en de zachte manier hoe hij het woord naar de personage zegt.
+
+Met CSS kon ik het  woord laten bewegen. Het woord wordt gegooid naar de hoofdpersonage toe. Dan lijkt het aggresief maar ook nog op een zachte manier.
 
 ## Filmfragment 1
-Het film begint met de  personage in zijn voertuig te draaien. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. De tekst wil ik gaan vormgeven op Basis van emoties. 
+<img src="images/liquid-v2.png">
+
+Het film begint met de  personage in zijn voertuig te draaienns. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. De tekst wil ik gaan vormgeven op Basis van emoties. 
 Commanderend voice krijgt een monospaced font
 Hoofdpersoon stem krijgt monospaced font maar klein
 Hij is wel bio-engineered als een biologisch mens maar voelt zich meer human. En hij praat niet zo hard.
