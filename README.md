@@ -30,8 +30,8 @@ Wat ik eerst heb gedaan om het filmfragment beter te begrijpen, was de hele film
 
 In mijn concept wilde ik gaan proberen om een combinatie van deze woorden toe te passen.
 
-## Ideeen
-Het volgende stap was ideen bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. 
+## Ideeën
+Het volgende stap was ideeën bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. 
 
 ### Hier zijn de eerste brainstorming:
 In mijn brainstorming heb ik verschillende ideeën geschetst. De ideeën hebben te maken met kleur, beweging en  illustraties. Om dat te bereiken ga ik animeren met css. Ik wil gaan spelen met animaties om mijn vaardigheden te verbeteren
@@ -115,8 +115,23 @@ De subtitels onderaan de videos heb ik aangepast volgens de emoties achter de st
 
 #### Wat heb ik gedaan bij de subtitels
 - Woorden aan elkaar plakken bij within Cells interlinked.
+- Kleine animaties bij verschillende woorden
 - Emoji aan de tekst toevoegen voor meer context te geven aan de tekst.
 - Groene kleur die aangeeft dat de test is behaald en rode kleur  wannneer de test is gefaald.
 
+---
+## Filmfragment 2
+<img src="images/tv-static-effect-v1.png">
+Het geluid bij de tweede fragment laat me denken aan optical illusion, ik wilde eerst een spiral optical illusie toevoegen toevoegen. Dus ik heb een andere alternatief gevonden. 
+
+### TV- Static effect
+Wanneer de tv geen verbinding hebt met de antenna krijg je een  statisch beeld en geluid te zien. Ik assosieer dat ook als een illusie en het is hypnotiserend. 
+
+### Uitzoomen van de video
+In deze scene is de hoofdpersonage weer getest op zijn baseline, maar hier is hij niet zichzelf en is een beetje nerveus. Deze effect geef aan hoe iedereen aan hem richt en spanning van de karakter zelf. 
+
 
 ---
+## Voortgang 1
+
+## Voortgang 2

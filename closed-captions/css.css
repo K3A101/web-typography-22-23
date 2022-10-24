@@ -414,16 +414,47 @@ animation-iteration-count: 1;
 }
 
 
+/* Animation starts slow  */
 .sound10 {
-	animation: annoying-sound .5s ease-in-out 82;
+	animation: annoying-sound-slow .5s ease-in-out 32;
+
+}
+
+@keyframes annoying-sound-slow {
+  0% {
+    background-color: #fa7070;
+    background-position: 0% 50%;
+  }
+  25% {
+    background-color: white;
+  }
+  
+  50% { 
+    background-color: #fa1616;
+    background-position: 100% 50%;
+  }
+  75% {
+    background-color: white;
+  }
+  
+  100% {
+    background-color: #fa7070;
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Animation going fast */
+.sound11 {
+	animation: annoying-sound-fast .3s ease-in-out 82;
 background-color: #7AF0A1;
 }
 
 
-.sound10 #video-mask {
-	animation: rotation .5s linear 82;
+.sound11 #video-mask {
+	animation: rotation-fast .5s linear 49;
 }
-@keyframes rotation {
+@keyframes rotation-fast {
   0%{
     transform:translate(2px,5px);
   }
@@ -441,7 +472,7 @@ background-color: #7AF0A1;
   }
 }
 
-@keyframes annoying-sound {
+@keyframes annoying-sound-fast {
   0% {
     background-color: red;
     background-position: 0% 50%;
@@ -465,6 +496,12 @@ background-color: #7AF0A1;
 }
 
 /* You can pick up your bonus */
+.sound12 {
+  background-image: url(../images/coins.svg), url(../images/coins.svg);
+  background-repeat: repeat-x, repeat-x;
+  background-size: 15em, 15em;
+  background-position: top, bottom;
+}
 /* .coins {
   position: absolute;
   top: -30em;
@@ -507,7 +544,7 @@ opacity: 1;
 } */
 
 /* Glitch effect op de video mask */
-.sound12 #video-mask{
+.sound13 #video-mask{
 	 animation: glitch1 2.5s infinite;
  width: 100%;
   height: 100%;
@@ -515,7 +552,7 @@ opacity: 1;
   z-index: 0;
 }
 
-.sound12 #video-mask::before {
+.sound13 #video-mask::before {
  content:"";
   position: absolute;
    background-color: black;
@@ -525,7 +562,7 @@ opacity: 1;
   z-index: 1;
 }
 
-.sound12 #video-mask::after {
+.sound13 #video-mask::after {
  content:"";
    position: absolute;
   height: 100%;
@@ -702,7 +739,7 @@ opacity: 1;
 }
 
 /* Tv Static noise  */
-.sound12 section {
+.sound13 section {
 	position: absolute;
 	z-index: -1;
 	/* background-color: white; */
@@ -721,7 +758,7 @@ svg:last-of-type {
 }
 
 /* video zooming slowly */
-.sound12 #video-mask {
+.sound13 #video-mask {
 	 animation: zooming-slowly 50s ease-in-out 1; 
   transform: scale(4);
 }
