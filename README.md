@@ -42,7 +42,9 @@ Wat ik in mijn project wil terug zien zijn:
 - Glitching text/ achtergrond effect
 - Optical illusion achtergrond
 - Illustratie aan het einde van Fragment 1 
-- Grote woorden op een random plek van de webpagina
+- Grote woorden op een random plek van de webpagina.
+
+<img src="images/schetsen.jpg">
 
 > Deze ideeen zijn gemaakt op basis van het geluid die ik moet vormgeven, de sfeer van de film en de betekenis van de tekst. 
 
@@ -94,6 +96,27 @@ Ik begin eerst met de achtergrond geluid. Terwijl de hoofdpersoon aan het beantw
 In de eerste versie verandert alarm 1:  Linear gradient, Alarm 2: licht Oranje achtergrond  Alarm 3: Oranje, Alarm 4: Roodoranje achtergrond. De bedoeling was  om een intensisteit  niveau weertegeven voor de piepende geluid. Licht oranje wordt gezien als minder intens en rood wordt ge zien als intens en waarschuwing. 
 
 #### Iteraties
-<img src="images/alarm.png">
+<img src="images/alarm-v1.png">
 Voor mijn eerste versie wilde ik dat de video gaat schudden tijdens de alarm maar uiteindelijk heb ik gekozen om de achtergrond kleur te veranderen. Ten eerste heb ik voor rood gekozen omdat het geef een gevoel van urgentie en ik asosieer het met een alarm bel kleur. 
 
+## Irritante geluid
+Zonder geluid zie je alleen de hoofdpersonage die vragen beantwoorden bij de test. Met geluid hoor je een  iritante piepende geluid. Het moet ook iritant zijn voor mensen die doof zijn. Dus dat heb ik bereik gemaakt door een knipperende achterdond animatie te maken die irritant zijn voor je ogen. Een passende kleur die ik heb gebruikt is een verzadigde rode kleur. ..Rood is een agressieve kleur en als die verkeerd gebruikt wordt (*ignore conventions*) maak je ogen vermoeiend.
+
+Tijdens de piep geluid, beweegt de video zelf. Hier wil ik illustreren hoe vervelend de hele geluid is terwijl de test worden genomen. 
+
+Uiteindelijk stopt de piepende geluid en dus de achtergrond wordt verandert naar een lichte groene kleur. Hiermee word er bedoeld dat de Constant K de test heeft behaald maar ook de rust na de chaos.
+
+
+### Captions
+De subtitels onderaan de videos heb ik aangepast volgens de emoties achter de stemmen. Maar ook per stem een andere positie gegeven op de video. Links onder heb je de stem achter de microfoon en rechts boven de stem van de hoofdpersonage constant K. De reden hiervoor is dat met de koptelefoon kan  ik aan de ene stem aan de linker oor horen  en de andere aan de rechter oor. 
+
+<img src="images/stem-achter-microfoon.png">
+<img src="images/hoofdpersonage.png">
+
+#### Wat heb ik gedaan bij de subtitels
+- Woorden aan elkaar plakken bij within Cells interlinked.
+- Emoji aan de tekst toevoegen voor meer context te geven aan de tekst.
+- Groene kleur die aangeeft dat de test is behaald en rode kleur  wannneer de test is gefaald.
+
+
+---
