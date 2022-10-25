@@ -31,10 +31,8 @@ Feel free to adjust the defaults to your needs.
 .voice4 {
   position: absolute;
   bottom: 1em;
-
   font-family: "Brenner Mono";
   margin: .5em;
-
 }
 
 /* Robotic voice */
@@ -53,7 +51,6 @@ Feel free to adjust the defaults to your needs.
 
 .voice3 {
   font-family: "Brenner Mono";
-
 }
 
 .voice4 {
@@ -107,7 +104,6 @@ You probably want to change the styling.
 .p0 span {
   opacity: 0;
   font-family: 'Brenner Mono';
-
 }
 
 .p0.on span:first-of-type {
@@ -190,7 +186,6 @@ You probably want to change the styling.
 
 /* Yes sir */
 .p1 span {
-
   margin: 0 .125em;
 }
 
@@ -209,31 +204,6 @@ You probably want to change the styling.
   align-items: center;
   color: azure;
 }
-
-
-/* Het woord spin draait */
-
-/* .p3.on span:nth-of-type(6) {
-	position: absolute;
-	transform: translateX(.2em);
-animation-name: spin-text-rotation;
-animation-timing-function: linear;
-animation-duration: .5s;
-animation-iteration-count: 1;
-  animation-delay: 1.5s;
-}
-
-@keyframes spin-text-rotation {
-  0%{
-    transform:rotate(0deg);
-  }
-    
-  100%{
-    transform: rotate(359deg)
-  }
-}
- */
-
 
 
 
@@ -272,11 +242,7 @@ animation-iteration-count: 1;
 
 }
 
-/* .p6.on span:nth-of-type(3) {
-	display: block;
-	animation: text-shaking 0.5s  infinite;
-	color: rgb(234, 199, 157);
-} */
+
 /* https://unused-css.com/blog/css-shake-animation/ */
 @keyframes text-shaking {
   0% {
@@ -329,10 +295,6 @@ animation-iteration-count: 1;
   right: 3em;
 }
 
-/* Within cells interlinked 3X */
-/* .voice2.p41.on{
-
-} */
 
 .voice2.p42.on {
   color: #d1680d;
@@ -499,7 +461,6 @@ Sounds.
 @keyframes annoying-sound-slow {
   0% {
      background-color: #f8c9a5;
-    
     background-position: 0% 50%;
   }
 
@@ -522,31 +483,6 @@ Sounds.
     background-position: 0% 50%;
   }
 }
-
-/* 
-@keyframes annoying-sound-slow {
-  0% {
-    background-color: #fa7070;
-    background-position: 0% 50%;
-  }
-  25% {
-    background-color: white;
-  }
-  
-  50% { 
-    background-color: #fa1616;
-    background-position: 100% 50%;
-  }
-  75% {
-    background-color: white;
-  }
-  
-  100% {
-    background-color: #fa7070;
-    background-position: 0% 50%;
-  }
-} */
-
 
 /* Animation going fast */
 .sound11 {
@@ -605,67 +541,6 @@ Sounds.
     background-position: 0% 50%;
   }
 }
-
-/* You can pick up your bonus */
-/* .sound12 {
-  background-image: url(../images/coins.svg), url(../images/coins.svg);
-  background-repeat: repeat-x, repeat-x;
-  background-size: 15em, 15em;
-  background-position: top, bottom;
-  opacity: 0;
-  animation: coins-appears 1s 2;
-  animation-direction:  alternate;
-}
-
-@keyframes coins-appears {
-  0%{
-    opacity: 0;
-  }
-
-100%{
-  opacity: 1;
-}
-} */
-/* .coins {
-  position: absolute;
-  top: -30em;
-  z-index: -1;
-bottom: 0;
-margin: auto;
-left: 0;
-right: 0;
- width: 300px;
- height: 300px;
- animation-name: coins-appears;
-animation-timing-function: ease-in-out;
- animation-iteration-count: infinite;
-animation-delay: 3s;
-}
-
-.coins.bottom {
-  bottom: -60em;
-}
-
-@keyframes coins-appears {
-  0%{
-    opacity: 0;
-  }
-  50% {
-opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
-
-
-/* .voice4.p46 {
-  	display: flex;
-	position: absolute;
-	 top: 50%; 
-	 right: 50%;
-  transform: translate(50%,-50%);
-} */
 
 .sound13 {
   transition: ease-in;
@@ -992,7 +867,7 @@ svg:last-of-type {
 }
 
 .sound14 #video-mask {
-  animation: move-everywhere 15s linear 1, flickering-lights .5s ease-in-out 40;
+  animation: move-everywhere 18s linear 1, flickering-lights .5s ease-in-out 40;
 
 }
 

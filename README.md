@@ -22,11 +22,11 @@ Ik moet gaan vormgeven op basis van deze vier principes  van Exclusive design na
 ---
 # Het proces
 ## Study situation
-Wat ik eerst heb gedaan om het filmfragment beter te begrijpen, was de hele film bekijken. Hiermee heb ik wat ideen opgeschren en geschets die ik kan toevoegen. Bovendien heb ik een beetje nagedacht aan de sfeer die het film navoren brengt en die waren:
-- scifi
+Wat ik eerst heb gedaan om het filmfragment beter te begrijpen, was de hele film bekijken. Hiermee heb ik wat ideen opgeschreven en geschetst die ik kan toevoegen. Bovendien heb ik een beetje nagedacht aan de sfeer die het film navoren brengt en die waren:
+- Scifi
 - Onbegrijpbaar
-- raar 
-- saai 
+- Raar 
+- Saai 
 
 In mijn concept wilde ik gaan proberen om een combinatie van deze woorden toe te passen.
 
@@ -34,22 +34,22 @@ In mijn concept wilde ik gaan proberen om een combinatie van deze woorden toe te
 Het volgende stap was ideeën bedenken. Voor mijn concept heb ik verschillende ideeen geschets om een overzicht te krijgen hoe die eruit ziet. 
 
 ### Hier zijn de eerste brainstorming:
-In mijn brainstorming heb ik verschillende ideeën geschetst. De ideeën hebben te maken met kleur, beweging en  illustraties. Om dat te bereiken ga ik animeren met css. Ik wil gaan spelen met animaties om mijn vaardigheden te verbeteren
+In mijn brainstorming heb ik verschillende ideeën geschetst. De ideeën hebben te maken met kleur, beweging en  illustraties. Om dat te bereiken ga ik animeren met css. Ik wil gaan spelen met animaties om mijn vaardigheden te verbeteren. *Prioritise identity*
+
 Wat ik in mijn project wil terug zien zijn:
 - Bewegende video container
-- Liquid effect achtergrond
-- Descending video container
-- Glitching text/ achtergrond effect
+- Vloeibare druppels bij de achtergrond
+- Knipperende tekst/ achtergrond effect
 - Optical illusion achtergrond
 - Illustratie aan het einde van Fragment 1 
-- Grote woorden op een random plek van de webpagina.
+- Grote woorden op een random plek van de video.
 
 <img src="images/schetsen.jpg">
 
-> Deze ideeen zijn gemaakt op basis van het geluid die ik moet vormgeven, de sfeer van de film en de betekenis van de tekst. 
+> Deze ideeën zijn gemaakt op basis van het geluid die ik moet vormgeven, de sfeer van de film en de betekenis van de tekst. 
 
 Verder ging ik zoeken naar verschillende manieren hoe ik de effecten en animatie kan toepassen met css. 
-Een paar kon ik zelf doen en die test ik op codepen. Andere heb ik gevonden op andere bronnen en youtube.  Alle bronnen staan helemaal onderaan. 
+Een paar kon ik zelf doen en die testte ik op codepen. Andere heb ik gevonden op andere bronnen en youtube.  Alle bronnen staan helemaal onderaan. 
 
 ## Typografie
 Een onderdeel van dit opdracht is ook de juiste lettertype kiezen om de geluiden en stemmen goed  te vormgeven. Ik heb gekozen voor de lettertype brenner omdat die verschillende soorten stijlen heeft.. In mijn video heb ik Brenner monospaced font-family gebruikt. Bijna alle karakters praten heel erg monotoon. Er zijn verschillende karakters in de fragment. Ik ga de tekst vormgeven op basis van emoties.
@@ -69,15 +69,15 @@ Tijdens de film zag ik dat hij geen oogcontact houdt met de lapd officiers. Hij 
 
 
 ### Persoon die vloekte
-Deze scene vindt plaats in de eerste fragment. Hij is een de lapd officier die tegen de hoofdpersonage vloekt. De manier hoe hij dit zegt is agresief en subtiel. Het geef aan de haat tegen de androids. Voor hem heb ik de font Brenner sans light gebruikt. Met dit lettertype kan ik aangeven dat dit karakter een "echte" mens is en de zachte manier hoe hij het woord naar de personage zegt.
+Deze scene vindt plaats in de eerste fragment. Hij is een de lapd officier die tegen de hoofdpersonage vloekt. De manier hoe hij dit zegt is agressief en subtiel. Het geef de haat tegen de androids. Voor hem heb ik de font Brenner sans light gebruikt. Met dit lettertype kan ik aangeven dat dit karakter een "echte" mens is en de zachte manier hoe hij het woord naar de personage zegt.
 
 Met CSS kon ik het  woord laten bewegen. Het woord wordt gegooid naar de hoofdpersonage toe. Dan lijkt het aggresief maar ook nog op een zachte manier.
 
 ## Filmfragment 1
 <img src="images/liquid-v2.png">
 
-### Liquid effect
-Het filmfragment begint met de  personage in zijn voertuig te draaienns. Dus ik wil de video meedraaien. Terwijl in de achtergrond iets vloeibaar naar beneden valt. Het geef een gevoel van weirdness aan. Voor de rest heb ik een reden waarom ik de effect heb geplaatst, maar ik vond het tof genoeg en voltooid aan het principe: add nonsense.
+### Vloeibare effect
+Het filmfragment begint met de  personage in zijn voertuig die naar de lapd gebouw gaat en die draait een beetje. Dus ik wil de video laten meedraaien. Terwijl in de achtergrond iets vloeibaar druppels naar beneden valt. Het geef een gevoel van weirdness aan. Voor de rest heb ik geen reden waarom ik de animatie heb geplaatst, maar ik vond het tof genoeg en voltooid aan het principe: *add nonsense*.
 
 #### Iteraties van de effect
 <img src="images/schets-liquid.jpg">  
@@ -106,9 +106,10 @@ Tijdens de piep geluid, beweegt de video zelf. Hier wil ik illustreren hoe verve
 
 Uiteindelijk stopt de piepende geluid en dus de achtergrond wordt verandert naar een lichte groene kleur. Hiermee word er bedoeld dat de Constant K de test heeft behaald maar ook de rust na de chaos.
 
+<img src="images/end-on-green.png">
 
-### Captions
-De subtitels onderaan de videos heb ik aangepast volgens de emoties achter de stemmen. Maar ook per stem een andere positie gegeven op de video. Links onder heb je de stem achter de microfoon en rechts boven de stem van de hoofdpersonage constant K. De reden hiervoor is dat met de koptelefoon kan  ik aan de ene stem aan de linker oor horen  en de andere aan de rechter oor. 
+### Ondertiteling
+De ondertiteling bij de video heb ik aangepast volgens de emoties achter de stemmen. Maar ook per stem een andere positie gegeven op de video. Links onder heb je de stem achter de microfoon en rechts boven de stem van de hoofdpersonage constant K. De positie van de ondertiteling hoort niet bij de normale situatie dus ik heb rekning gehouden met het principe *(ignore conventions)* De reden hiervoor is dat met de koptelefoon kan  ik aan de ene stem aan de linker oor horen  en de andere aan de rechter oor. 
 
 <img src="images/stem-achter-microfoon.png">
 <img src="images/hoofdpersonage.png">
@@ -122,16 +123,79 @@ De subtitels onderaan de videos heb ik aangepast volgens de emoties achter de st
 ---
 ## Filmfragment 2
 <img src="images/tv-static-effect-v1.png">
-Het geluid bij de tweede fragment laat me denken aan optical illusion, ik wilde eerst een spiral optical illusie toevoegen toevoegen. Dus ik heb een andere alternatief gevonden. 
+Het geluid bij de tweede fragment laat me denken aan optical illusion, ik wilde eerst een spiral optical illusie  toevoegen. Dus heb een andere alternatief gevonden. 
 
-### TV- Static effect
-Wanneer de tv geen verbinding hebt met de antenna krijg je een  statisch beeld en geluid te zien. Ik assosieer dat ook als een illusie en het is hypnotiserend. 
+### TV-ruis effect
+Wanneer de tv geen verbinding hebt met de antenna krijg je een  statisch beeld en geluid te zien. Ik assosieer dat ook als een illusie en het is hypnotiserend.  Dus het fragment begint met een ruisende achtergrond. 
 
 ### Uitzoomen van de video
-In deze scene is de hoofdpersonage weer getest op zijn baseline, maar hier is hij niet zichzelf en is een beetje nerveus. Deze effect geef aan hoe iedereen aan hem richt en spanning van de karakter zelf. 
+In deze scene is de hoofdpersonage weer getest op zijn baseline, maar hier is hij niet zichzelf en is een beetje nerveus. Deze effect geef aan hoe iedereen aan hem springt met vragen  en de spanning van het karakter zelf. 
+
+<img src="images/uitzoomen.png">
+
+### Soundscape vormgeven
+Bij de tweede fragment hoor je verschillende geluiden achter elkaar en ik associeer ze als een rustige muziek maar ook nog griezelig. Een passende kleur voor het sfeer is blauw. Blauw asocieer ik als een kalmerende kleur, maar ook als somber en verdriet. In deze scene kan je zien dat de hoofdpersonage niet op zijn gemaakt voelt tijdens zijn tweede test. Dus om dit te weergeven heb ik een blauwe radial-gradient achtergrond gebruikt met volgende kleurencodes:
+```
+  background: radial-gradient(rgba(152, 203, 238, 1) 0%, #e4f2ff 11%, rgba(85, 109, 178, 1) 28%, rgba(72, 90, 158, 1) 44%, rgba(28, 14, 85, 1) 67%, rgba(0, 0, 0, 1) 100%);
+
+```
+<img src="images/radial-gradient.png">
+
+Ik heb verschillende blauwe kleuren gebruikt voor de gradient. 
+Deze achtergrond blijft tot aan het einde van fragment 2. Om de animatie vloeiend loopt. 
+
+Het geluid doet alsof iets zweeft en draait in de lucht, dus ik zorgde ervoor dat de video mask en de radial-gradient achtergond volgens het geluid beweegt. Terwijl dit gebeurd ook hoor je heel zachtjes in de achtergrond dezelfde pieptoon van fragment 1. Die weergeeft als  een knipperende licht achter de video.
 
 
 ---
 ## Voortgang 1
+Het voortgang is een feedback moment  waar de docent, feedback geeft op mijn progress en werk. Bij de eerste voortgang had ik niet veel klaar om te laten zien. Maar ik had wel een aantal animatie en vormgegeven geluiden klaar. 
+
+Wat had ik klaar:
+- De piepgeluid
+- De alarm geluiden 
+
+Feedback die ik heb gekregen waren:
+- De liquid effect is een goeie effect maar heeft niet veel toegevoegde waarde om bij de hele fragment te laten zien. 
+- De F**k off skinjob kon betere vormgegeven worden, ik heb het groot gemaakt en dat was niet de intentie van dat woord.
+- Ik moest nog de tekst en de ondertiteling op de juiste positie plaatsen en passende stijling geven. 
+
+**Na de voortgangsgesprek** ging ik meteen aan de slag, ik heb de vloeibare animatie een kortere duur gegeven en stop voor de iritante piepgeluid. De animatie heb ik weer de zwarte kleur aangepast naar groene tinten, want het past bij de scene. 
+
+De alarm geluid heb ik in plaats van rood, een combinatie van  de oranje tinten gegeven. Ik heb ook nagedacht welk lettertype per stem wordt gegeven en welke positie elk stem gaat nemen op de videos. 
+
+<img src="images/image7.png">
+<img src="images/skinjob.png">
+
+Nadat ik klaar was met de eerste fragment kon ik verder werken aan de tweede fragment. Zoals ik al zei wilde ik een soort van vibrerende hypnotiserend achtergrond plaasten, door het geluid. En ik laat de video uitzoomen want zo heb ik het geluid geassocieerd.
 
 ## Voortgang 2
+Bij de tweede voortgangsgesprek was mijn video 90% klaar en hier kon ik meer ingen aan de docenten laten zien. 
+
+Feeback die ik heb gekregen bij de tweede voortgangsgesprek:
+- De piep geluid moet eerst langzaam beginnen en wordt sneller tot aan het eind.
+- Het woord spin, moet niet gaan spinnen want het is niet letterlijk zo bedoeld.
+-Bij de tweede fragment moet ik meer gaan vormgeven op basis van de geluiden in de achtergrond.
+
+Om het feedback te verwerken, moest ik de ruis achtergrond verkorten met behulp van animatie want de code was niet toegevoegd bij de body maar bij de section. Maar daarna kwan de blauwe achtergrond te abrupt tevoorschijn dus ik heb de blauwe achtergrond op de hele fragment geplaatst. 
+
+<img src="images/dark-static.png">
+
+
+
+## Bronnen
+Box Shadow CSS Generator | CSSmatic. (z.d.). Geraadpleegd op 25 oktober 2022, van https://www.cssmatic.com/box-shadow 
+
+Color Names. (z.d.). HTML Color Codes. Geraadpleegd op 25 oktober 2022, van https://htmlcolorcodes.com/color-names/ 
+
+CSS Circle animation. (z.d.). Geraadpleegd op 25 oktober 2022, van https://codepen.io/mrdeeds88/pen/rNNZqVV 
+
+Franks laboratory. (2019a, augustus 30). Pure CSS Animated Background Tutorial - Dripping Liquid Effect. YouTube. https://www.youtube.com/watch?v=AKPNKn4Co2A 
+
+Franks laboratory. (2019b, september 27). Particles JS Effect with Pure Vanilla JavaScript | Animated Background Tutorial with Examples. YouTube. https://www.youtube.com/watch?v=d620nV6bp0A 
+
+Linear Gradient CSS. (z.d.). CSS Gradient. Geraadpleegd op 25 oktober 2022, van https://cssgradient.io/
+
+Pinto, M. (z.d.). CodePen home pure CSS gradient background animation. Codepen. Geraadpleegd op 25 oktober 2022, van https://codepen.io/P1N2O/pen/pyBNzX
+
+Alexander, K. (z.d.). Css circle animation. Geraadpleegd op 25 oktober 2022, van https://codepen.io/keisha-alexander/pen/mdKbQYy
