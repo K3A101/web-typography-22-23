@@ -177,11 +177,11 @@ Feeback die ik heb gekregen bij de tweede voortgangsgesprek:
 - Het woord spin, moet niet gaan spinnen want het is niet letterlijk zo bedoeld.
 -Bij de tweede fragment moet ik meer gaan vormgeven op basis van de geluiden in de achtergrond.
 
-Om het feedback te verwerken, moest ik de ruis achtergrond verkorten met behulp van animatie want de code was niet toegevoegd bij de body maar bij de section. Maar daarna kwan de blauwe achtergrond te abrupt tevoorschijn dus ik heb de blauwe achtergrond op de hele fragment geplaatst. 
+Om het feedback te verwerken, moest ik de ruis achtergrond verkorten met behulp van animatie want de code was niet toegevoegd bij de body maar bij de section. Maar daarna kwam de blauwe achtergrond te abrupt tevoorschijn dus ik heb de blauwe achtergrond op de hele fragment geplaatst. 
 
 <img src="images/dark-static.png">
 
-
+Om de overgang van zacht piep geluid naar irritante piepgeluid, heb ik  twee animatie gemaakt. De animatie begint met dezelfde knipperende effect van de vorige versie, maar met zachte oranje tinten, het is niet echt vervelend voor je ogen. Ook beweegt de video niet dus heb je meer rust. De volgende animatie is heftiger de knipperende achtergond heeft een combinatie van rood en witte kleuren en knippert sneller dan normaal.
 
 ## Bronnen
 Box Shadow CSS Generator | CSSmatic. (z.d.). Geraadpleegd op 25 oktober 2022, van https://www.cssmatic.com/box-shadow 
