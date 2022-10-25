@@ -14,5 +14,7 @@ sounds = [
 	34, // sound10
 	50,//sound 11
 	81, //sound 12
-	86 //sound 13
+	86,//sound 13
+	110,//sound 14
+	131 //sound 15
 ];
